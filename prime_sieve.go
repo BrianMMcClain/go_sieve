@@ -35,6 +35,7 @@ func main() {
     }
   }
 
+  // Output results
   for i := 2; i < max; i++ {
     if !sieve[i] {
       fmt.Printf("%v\n", i)
